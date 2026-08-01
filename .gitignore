@@ -1,0 +1,13 @@
+/vendor/
+/.phpunit.cache/
+/.idea/
+/.vscode/
+*.log
+.DS_Store
+
+node_modules/
+dist/
+.vitepress/dist/
+.vitepress/cache/
+*.log
+.DS_Store

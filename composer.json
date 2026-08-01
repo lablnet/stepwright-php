@@ -1,0 +1,37 @@
+{
+    "name": "lablnet/stepwright-php",
+    "description": "A declarative, step-by-step approach to web automation and data extraction with Playwright in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Umer Farooq",
+            "email": "umer@lablnet.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "playwright-php/playwright": "^1.0 || dev-main"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lablnet\\StepWright\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lablnet\\StepWright\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "dev",
+
+    "prefer-stable": true
+}
